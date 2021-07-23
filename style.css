@@ -1,0 +1,61 @@
+#contact-list{
+    margin: 30px auto;
+    width: 40vw;
+    height: 85vh;
+    padding: 0px 25px 25px 25px;
+    overflow-y:scroll;
+    font-size: 30px;
+    box-shadow: 1px 1px 10px 2px gray;
+    font-family: sans-serif;
+    border-radius: 5px;
+}
+#header{
+    color: rgb(100, 99, 99);
+    text-align: center;
+    margin:10px;
+}
+.section{
+    position: relative;
+}
+.alphabet{
+    padding:5px 5px 5px 15px;
+    background-color: rgb(224, 216, 216);
+    background: linear-gradient(to right, gray, rgb(207, 205, 205));
+    font-size: 25px;
+    font-weight: bolder;
+    position: sticky;
+    top: 0;
+    border-radius: 5px;
+    margin-bottom: 2px;
+    margin-top: 10px;
+}
+.contact{
+    font-size: 20px;
+    padding:5px 15px 0px 15px;
+    border-radius: 5px;
+    margin-bottom: 2px;
+}
+.contact:hover{
+    background-color: rgb(230, 225, 225);
+    transition: ease-in-out 0.5s;
+    transform: scale(1.03);
+    cursor: pointer;
+}
+.span1::before{
+    content: '\1F4DE';
+    padding-right: 10px;
+}
+.span2{
+    color:gray;
+    float: right;
+}
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+  }
+  ::-webkit-scrollbar-thumb {
+    background: gray; 
+    border-radius: 10px;
+  }
